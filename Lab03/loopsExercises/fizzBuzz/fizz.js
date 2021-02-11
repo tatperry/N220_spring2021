@@ -1,5 +1,0 @@
-// Tatiana Perry
-// NEWM-N220
-// LAB 3
-// LOOPS EXERCISES
-// FEBRUARY 11, 2021
