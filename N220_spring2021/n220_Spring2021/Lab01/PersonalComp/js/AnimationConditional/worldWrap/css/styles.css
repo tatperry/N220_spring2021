@@ -1,0 +1,14 @@
+/*  
+Tatiana Perry
+N220 - 28238
+Lab 2 
+September 3, 2020
+ */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
