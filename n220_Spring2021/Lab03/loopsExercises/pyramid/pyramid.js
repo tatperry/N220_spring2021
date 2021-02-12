@@ -8,7 +8,7 @@
 
 function setup() {
     createCanvas(800, 600);
-    background("blue");
+    background("white");
   
     // Nesting loops
   
