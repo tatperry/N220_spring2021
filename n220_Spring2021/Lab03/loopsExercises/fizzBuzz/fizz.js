@@ -8,15 +8,15 @@
 // MAKE A CANVAS AND SET A BACKGROUND COLOR
 function setup() {
   createCanvas(900, 100);
-  background(205);
+  background(900);
 }
 // FIZZ BUZZ/ MAKINGING CIRCLES AND SQUARES
 function draw() {
   // IF STATEMENT
 
   for (var i = 1; i < 26; i++) {
-    // if the items are divisible by 5 and 3 make them a BLUE RECTANGLES
 
+    // if the items are divisible by 5 and 3 make them a BLUE RECTANGLES
     if (i % 3 == 0 && i % 5 == 0) {
       fill("blue");
       rect(i * 30, 15, 10, 10);
