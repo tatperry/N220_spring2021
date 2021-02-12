@@ -11,8 +11,8 @@ function draw(){
     background(100);
     noFill();
     // for loop
-    for(var i=0; i < 16; i++){
-        circle(400, 400, i* 50);
+    for(var i=0; i < 50; i++){
+        circle(400, 400, i* 10);
        
     }
 }
