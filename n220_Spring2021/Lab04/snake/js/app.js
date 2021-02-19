@@ -11,7 +11,7 @@ function setup(){
 
 function draw(){
     console.log(cirlce);
-    background(10, .9);
+    background(10);
     cirlce.push( mouseX);
     cirlce.shift();
     for(var i=0; i< cirlce.length; i++ ){
