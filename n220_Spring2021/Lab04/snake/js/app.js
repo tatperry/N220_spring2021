@@ -12,10 +12,8 @@ function setup(){
 function draw(){
     console.log(cirlce);
     background(10, .9);
-
     cirlce.push( mouseX);
     cirlce.shift();
-
     for(var i=0; i< cirlce.length; i++ ){
         circle(cirlce[i], 150, 30);
     }
