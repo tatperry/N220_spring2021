@@ -3,18 +3,20 @@
 // Lab04
 // February 18, 2021
 
-let cirlce = [0,0,0,0,0,0,0,0,0,0];
+let comp = [0,0,0,0];
 function setup(){
     createCanvas(400,300);
     
 }
 
 function draw(){
-    console.log(cirlce);
-    background(10, .9);
-    cirlce.push( mouseX);
-    cirlce.shift();
-    for(var i=0; i< cirlce.length; i++ ){
-        circle(cirlce[i], 150, 30);
+    console.log(comp);
+    background(10);
+    comp.push();
+    comp.shift(mouseX);
+    for(var i=0; i< comp.length; i++ ){
+        circle(comp[i], 150, 30);
+        rect(comp[i], 150, 30);
+        circle(comp[i], 150, 30);
     }
 }
