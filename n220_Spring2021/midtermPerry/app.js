@@ -3,8 +3,20 @@
 // NEWM-N220
 // MIDTERM - PERRY
 // March 19, 2021
-
-
+// 
+// 
+// 
+// 
+// Draws 10 circles on the page, at the y location of the mouse
+// Each circle's radius is based off how close it is in the x-axis to the mouse x position, with closer circles getting larger
+// Each circle's color is based off how close it is in the x-axis to the mouse x position, with closer circles being brighter
+// When the mouse button is pressed down, animate all the circles downward
+// When the mouse button is released, put the circles at the y location of the mouse
+// Do not let the circles go beyond the bottom of the screen
+// 
+// 
+// 
+// 
 // drawing 10 circles on the page 
 // setting a let variabe with 10 circles 
 let cirlce = [0,0,0,0,0,0,0,0,0];
@@ -47,6 +59,7 @@ function draw(){
     for(var i=0; i< cirlce.length; i++ ){
         fill(color[i])
         // circles are gien the variables up at the top plus the speed at which they move across the screen. 
+        // speed of the circles | // x axis  |  //  the radius
         circle(cirlce[i] + speed * 5, 150 + speed * 5, 10);
         circle(cirlce[i] + speed * 5, 200 + speed * 5, 20);
         circle(cirlce[i] + speed * 5, 250 + speed * 5, 30);
