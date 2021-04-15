@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bad Word Catcher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Bad Word Catcher</h1>
+
+<p>Disallows specific words to be sent in a form textarea.</p>
+<p>Try entering the words "clear", "water", or "tires" in the text box and click Submit.</p>
+
+<div id="container">
+	<form name="form1">
+		<textarea rows="3" cols="40" name="text" placeholder="Enter one of the bad words above and then try submitting the form." onClick="select_area()"></textarea>
+
+<input type="button" value="Submit" onClick="validate_text();">
+</form>
+
+<script src="app.js"></script>
+</body>
+</html>
