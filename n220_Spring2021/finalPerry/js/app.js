@@ -183,7 +183,7 @@ function update() {
 }
 // update after game is done
 update();
-// calling on the functions to go to computer
+// functions for the right and left arrow keys to move the paddle across the x axis of the screen. 
 document.addEventListener("keydown", (e) => {
   if (e.key === "Right" || e.key === "ArrowRight") {
     paddle.dx = paddle.speed;
